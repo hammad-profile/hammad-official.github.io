@@ -52,7 +52,7 @@ span {
     box-shadow: 0 0 1rem rgba(255, 0, 0, 0.7);
 }
 
-@media only screen and (max-width:975px) {
+@media only screen and (max-width:1150px) {
 
     h1{
         font-size: 25px;
