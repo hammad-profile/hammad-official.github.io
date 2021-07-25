@@ -13,7 +13,7 @@
 </head>
 
 <body>
-<!--     <div class="container">
+    <div class="container">
         <div class="row">
             <div class="col-md-12">
 
@@ -39,7 +39,7 @@
 
             </div>
         </div>
-    </div> -->
+    </div>
 
     <script>
         //question 01
@@ -106,41 +106,41 @@
         
     // Question 4
 
-//     let records = [];
+    let records = [];
 
-//         const userInfo = () => {
+        const userInfo = () => {
 
-//             var gender = 'Both';
-//             var inputElements = document.getElementsByClassName('gender');
-//             for (var i = 0; inputElements[i]; ++i) {
-//                 if (inputElements[i].checked) {
-//                     gender = inputElements[i].value;
-//                     break;
-//                 }
-//             }
-//             var name = document.getElementById('name').value;
-//             var edu = document.getElementById('edu').value;
-//             // var professions = document.getElementById('professions').value;
+            var gender = 'Both';
+            var inputElements = document.getElementsByClassName('gender');
+            for (var i = 0; inputElements[i]; ++i) {
+                if (inputElements[i].checked) {
+                    gender = inputElements[i].value;
+                    break;
+                }
+            }
+            var name = document.getElementById('name').value;
+            var edu = document.getElementById('edu').value;
+            // var professions = document.getElementById('professions').value;
 
 
-//             var res = new InfoConstructor({ name: name, gender: gender, edu: edu })
-//             records.push(res)
-//             console.log(records)
-//         }
+            var res = new InfoConstructor({ name: name, gender: gender, edu: edu })
+            records.push(res)
+            console.log(records)
+        }
 
-//         function InfoConstructor({ name, gender, edu }) {
-//             this.userName = name;
-//             this.userGender = gender;
-//             this.userEducations = edu;
-//         }
+        function InfoConstructor({ name, gender, edu }) {
+            this.userName = name;
+            this.userGender = gender;
+            this.userEducations = edu;
+        }
 
-//         const calculatePop = () => {
-//             let resText = `Population of your area is ${records.length}`;
-//             document.querySelector('.result').innerText = resText;
-//         }
+        const calculatePop = () => {
+            let resText = `Population of your area is ${records.length}`;
+            document.querySelector('.result').innerText = resText;
+        }
 
-//         document.getElementById('btn').addEventListener('click', userInfo);
-//         document.getElementById('check').addEventListener('click', calculatePop);
+        document.getElementById('btn').addEventListener('click', userInfo);
+        document.getElementById('check').addEventListener('click', calculatePop);
         //end
 
 
