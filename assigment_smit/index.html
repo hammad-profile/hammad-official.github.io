@@ -21,22 +21,21 @@
         var total = 0;
         for (var i = 0; i < products.length; i++) {
             var price = products[i].price * products[i].quantity;
-            document.write(products[i].name + ':' + price + '<br>');
+            document.write(products[i].name +' ' +':'+ ' '+ price + '<br>');
             total += price;
         }
-        document.write('price' + ' ' + price);
+        document.write('price' +' '+ ':' +' '+ price);
 
 
         var profile = {
-            //user data with age and country
-            name: { firstName: 'hammy', lastName: 'burds' },
+            name: { firstname: 'hammy', lastname: 'burds' },
             email: 'hammy@gmail.com',
             age: 23,
             country: 'pakistan',
         };
         if (profile.hasOwnProperty("age") && profile.hasOwnProperty("country")) {
-            if (profile.name.hasOwnProperty('hammy') && profile.name.hasOwnProperty('burds')) {
-                console.log('hammy and burds property available');
+            if (profile.name.hasOwnProperty('firstname') && profile.name.hasOwnProperty('lastname')) {
+                console.log('firstname and lastname property available');
             }
             console.log('available');
         } else {
