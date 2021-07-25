@@ -11,6 +11,7 @@
 <body>
 
     <script>
+        //question 01
 
         var products = [
             { name: "juice", price: "50", quantity: "3" },
@@ -25,14 +26,17 @@
             total += price;
         }
         document.write('price' +' '+ ':' +' '+ price);
+        //end
 
 
+        //question 02
         var profile = {
             name: { firstname: 'hammy', lastname: 'burds' },
             email: 'hammy@gmail.com',
             age: 23,
             country: 'pakistan',
         };
+       
         if (profile.hasOwnProperty("age") && profile.hasOwnProperty("country")) {
             if (profile.name.hasOwnProperty('firstname') && profile.name.hasOwnProperty('lastname')) {
                 console.log('firstname and lastname property available');
@@ -41,6 +45,29 @@
         } else {
             console.log('not available');
         }
+       //end 
+        
+        
+        //Question 03
+         function Person() {
+        (this.name = "hammy"),
+          (this.age = 23),
+          (this.country = "pakistan"),
+          (this.city = "Karachi"),
+          (this.greet = function () {});
+      }
+
+      const person1 = new Person();
+      const person2 = new Person();
+      const person3 = new Person();
+      const person4 = new Person();
+
+      console.log(person1.name);
+      console.log(person2.age);
+      console.log(person3.country);
+      console.log(person3.city);
+      //end  
+      
 
     </script>
 </body>
