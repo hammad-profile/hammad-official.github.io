@@ -1,0 +1,134 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+.box{
+  width: 300px;
+  height: 500px;
+  background-color: #95a5a6;
+  border-radius: 25px;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.batn{
+  width: 100px;
+  background-color: white;
+  height: 50px;
+}
+
+.textt{
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+section {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+}
+
+section#dashboard_section {
+  display: none;
+}
+
+section#game_section {
+  display: none;
+}
+
+section > .login-bg-image {
+  width: 100%;
+  min-height: 100vh;
+ background-image: url(./images/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section#login_section .login-box {
+  width: 100%;
+  min-height: 100vh;
+  flex-direction: column;
+}
+section#login_section .login-box .info {
+  margin-top: 50px;
+  color: #ffffffc7;
+  text-shadow: 2px 2px 3px #333;
+}
+
+section#login_section .login-box .loginBtn span.image img {
+  margin-top: 50px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.baloon-container {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  overflow: hidden;
+}
+
+.baloon {
+  width: calc(100% - 24px);
+  height: 100%;
+  border-radius: 50%;
+  position: absolute;
+}
+.baloon.baloon-red {
+  background-color: red;
+}
+.baloon.baloon-green {
+  background-color: green;
+}
+.baloon.baloon-blue {
+  background-color: blue;
+}
+.baloon.baloon-yellow {
+  background-color: yellow;
+}
+.baloon.baloon-purple {
+  background-color: purple;
+}
+/* baloon-text-${colors[random]} */
+.baloon-text-red {
+  color: red;
+}
+.baloon-text-green {
+  color: green;
+}
+.baloon-text-blue {
+  color: blue;
+}
+.baloon-text-yellow {
+  color: yellow;
+}
+.baloon-text-purple {
+  color: purple;
+}
+
+span.baloon-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-block-imp {
+  display: block !important;
+}
