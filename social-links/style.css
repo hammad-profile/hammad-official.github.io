@@ -58,6 +58,11 @@ body{
     border-radius: 10px;
     background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
 }
+
+button :hover{
+    background-color: aqua;
+}
+
 .text .github{
     width: 400px;
     border: none;
