@@ -1,132 +1,87 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    font-family: 'Poppins', sans-serif;
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Poppins", sans-serif;
 }
 
-.container{
-    min-height: 100vh;
-
+.container {
+  min-height: 100vh;
 }
-.image{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.image img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    margin-top: 20px;
-    -webkit-box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.63); 
-    box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.63);
-
+.image img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-top: 20px;
+  -webkit-box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.63);
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.63);
 }
 
-body{
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #FFDEE9;
-    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
-    
+body {
+  min-height: 100%;
+  background-color: #ffdee9;
+  background-image: linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%);
 }
-.heading{
-    margin-top: 20px; 
-    
+.heading {
+  margin-top: 20px;
 }
-.heading h1{
-    font-weight: bolder;
+.heading h1 {
+  font-weight: bolder;
 }
 
-.heading p{
-    font-weight: bolder;
+.heading p {
+  font-weight: bolder;
 }
-.text{
-    display: block;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
-}
-.text .email{
-    width: 400px;
-    border: none;
-  
-    margin-bottom: 20px;
-    height: 50px;
-    font-weight: bolder;
-    border-radius: 10px;
-    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+.text {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
 }
 
-
-
-.text .github{
-    width: 400px;
-    border: none;
-    margin-bottom: 20px;
-    height: 50px;
-    font-weight: bolder;
-    border-radius: 10px;
-    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
-
-}
-.text .twitter{
-    width: 400px;
-    border: none;
-    margin-bottom: 20px;
-    height: 50px;
-    font-weight: bolder;
-    border-radius: 10px;
-    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
-
-}
-.text .facebook{
-    width: 400px;
-    border: none;
-    margin-bottom: 20px;
-    height: 50px;
-    font-weight: bolder;
-    border-radius: 10px;
-    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
-
-}
-.text .instagram{
-    width: 400px;
-    border: none;
-    margin-bottom: 20px;
-    height: 50px;
-    font-weight: bolder;
-    border-radius: 10px;
-    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
-
-}
-.text .snapchat{
-    width: 400px;
-    border: none;
-    margin-bottom: 20px;
-    height: 50px;
-    font-weight: bolder;
-    border-radius: 10px;
-    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
-
-}
-.text .whatsapp{
-    width: 400px;
-    border: none;
-    margin-bottom: 20px;
-    height: 50px;
-    font-weight: bolder;
-    border-radius: 10px;
-    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
-
-
+.text > button {
+  width: 400px;
+  border: none;
+  margin-bottom: 20px;
+  height: 50px;
+  font-weight: bolder;
+  border-radius: 10px;
+  /* background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%); */
+  max-width: 100%;
 }
 
+.text .email {
+    color: white;
+  background-color: #E4D00A;
+}
 
-    
+.text .github {
+    color: white;
+    background-color: #171515;
+}
+.text .twitter {
+    color: white;
+  background-color: #00acee;
+}
+.text .facebook {
+    color: white;
+  background-color: #3b5998;
+}
+.text .instagram {
+    color: white;
+}
+.text .LinkedIn {
+    color: white;
+  background-color: #0077b5;
+}
+.text .whatsapp {
+    color: white;
+  background-color: #25d366;
+}
