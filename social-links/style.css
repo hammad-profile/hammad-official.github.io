@@ -28,11 +28,16 @@ body {
   min-height: 100%;
   background-color: #ffdee9;
   background-image: linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%);
+  background-image: url(./images/img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .heading {
+    color: white;
   margin-top: 20px;
 }
 .heading h1 {
+    color: white;
   font-weight: bolder;
 }
 
@@ -58,30 +63,39 @@ body {
 }
 
 .text .email {
-    color: white;
-  background-color: #E4D00A;
+  color: white;
+  background: rgb(246, 227, 35);
 }
 
 .text .github {
-    color: white;
-    background-color: #171515;
+  color: white;
+  background-color: #171515;
 }
 .text .twitter {
-    color: white;
+  color: white;
   background-color: #00acee;
 }
 .text .facebook {
-    color: white;
+  color: white;
   background-color: #3b5998;
 }
 .text .instagram {
-    color: white;
+  color: white;
+  background-color: #feda75;
+  background-image: linear-gradient(
+    225deg,
+    #feda75 0%,
+    #fa7e1e 22%,
+    #d62976 49%,
+    #962fbf 75%,
+    #4f5bd5 100%
+  );
 }
 .text .LinkedIn {
-    color: white;
+  color: white;
   background-color: #0077b5;
 }
 .text .whatsapp {
-    color: white;
+  color: white;
   background-color: #25d366;
 }
