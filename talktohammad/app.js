@@ -1,29 +1,40 @@
 function email(){
-    window.location.href = "mailto:talktohammad@goutlook.com"
+    window.location.href = "mailto:talktohammad@goutlook.com";
 }
+// function linkedin(){
+//     window.location.href = "https://www.linkedin.com/in/talktohammad/" , "_blank";
+// }
+
 function linkedin(){
-    window.location.href = "https://www.linkedin.com/in/hammad-profile/";
-}
+    window.open("https://www.linkedin.com/in/talktohammad/","_blank");
+        }
+
 function github(){
-    window.location.href = "https://github.com/hammad-official";
+    window.open("https://github.com/hammad-official","_blank")
 }
+
 function whatsapp(){
-    window.location.href = "https://wa.me/923408659016";
+    window.open("https://wa.me/923408659016","_blank");
 }
+
 function discord(){
-    window.location.href = "https://discord.com/channels/hammad_profile";
+    window.open("https://discord.com/channels/hammad_profile","_blank");
 }
+
 function instagram(){
-    window.location.href = "https://instagram.com/talktohammad";
+    window.open("https://instagram.com/talktohammad","_blank");
 }
+
 function twitter(){
-    window.location.href = "https://twitter.com/talktohammad";
+    window.open("https://twitter.com/talktohammad","_blank");
 }
+
 function snapchat(){
-    window.location.href = "https://www.snapchat.com/talktohammad/talktohammad";
+    window.open("https://www.snapchat.com/talktohammad/talktohammad","_blank");
 }
+
 function facebook(){
-    window.location.href = "https://www.facebook.com/talktohammad";
+    window.open("https://www.facebook.com/talktohammad","_blank");
 }
 
 
