@@ -6,8 +6,8 @@
 
 body {
     max-height: 100%;
-    /* background-color: #4158D0;
-    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
     background: #283c86;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -74,9 +74,14 @@ h1{
 }
 
 .facebook:hover{
+
+
     color: white;
     background-color: #3b5998;
-    border-radius: 50px;
+    border: solid black 1px;
+    border-radius: 10px;
+    width: 410px;
+    margin-bottom: 18px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-position: 100% 0;
     moz-transition: all .4s ease-in-out;
@@ -92,7 +97,10 @@ h1{
 .email:hover{
     color: #fff;
     background-color: #3b5998;
-    border-radius: 50px;
+    border: solid black 1px;
+    border-radius: 10px;
+    width: 410px;
+    margin-bottom: 18px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-position: 100% 0;
     moz-transition: all .4s ease-in-out;
@@ -124,13 +132,16 @@ h1{
         #962fbf 75%,
         #4f5bd5 100%
         );
-        border-radius: 50px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        background-position: 100% 0;
-        moz-transition: all .4s ease-in-out;
-        -o-transition: all .4s ease-in-out;
-        -webkit-transition: all .4s ease-in-out;
-        transition: all .4s ease-in-out;
+        border: solid black 1px;
+    border-radius: 10px;
+    width: 410px;
+    margin-bottom: 18px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
 }
 
 .linkedin{
@@ -140,7 +151,10 @@ h1{
 .linkedin:hover{
     color: #fff;
     background-color: #0077b5;
-    border-radius: 50px;
+    border: solid black 1px;
+    border-radius: 10px;
+    width: 410px;
+    margin-bottom: 18px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-position: 100% 0;
     moz-transition: all .4s ease-in-out;
@@ -156,7 +170,10 @@ h1{
 .whatsapp:hover{
     color: #fff;
     background-color: #25d366;
-    border-radius: 50px;
+    border: solid black 1px;
+    border-radius: 10px;
+    width: 410px;
+    margin-bottom: 18px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-position: 100% 0;
     moz-transition: all .4s ease-in-out;
@@ -173,7 +190,10 @@ h1{
 .github:hover{
     color: #fff;
     background-color: #171515;
-    border-radius: 50px;
+    border: solid black 1px;
+    border-radius: 10px;
+    width: 410px;
+    margin-bottom: 18px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-position: 100% 0;
     moz-transition: all .4s ease-in-out;
@@ -190,7 +210,10 @@ h1{
 .snapchat:hover{
     color: #000;
     background-color: #FFFC00;
-    border-radius: 50px;
+    border: solid black 1px;
+    border-radius: 10px;
+    width: 410px;
+    margin-bottom: 18px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-position: 100% 0;
     moz-transition: all .4s ease-in-out;
@@ -207,7 +230,10 @@ h1{
 .twitter:hover{
     color: #fff;
     background-color: #090909;
-    border-radius: 50px;
+    border: solid black 1px;
+    border-radius: 10px;
+    width: 410px;
+    margin-bottom: 18px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-position: 100% 0;
     moz-transition: all .4s ease-in-out;
@@ -224,7 +250,10 @@ h1{
 .discord:hover{
     color: #fff;
     background-color: #7289d9;
-    border-radius: 50px;
+    border: solid black 1px;
+    border-radius: 10px;
+    width: 410px;
+    margin-bottom: 18px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-position: 100% 0;
     moz-transition: all .4s ease-in-out;
@@ -242,7 +271,10 @@ h1{
 .threads:hover{
     color: white;
     background-color: #1d1d1d;
-    border-radius: 50px;
+    border: solid black 1px;
+    border-radius: 10px;
+    width: 410px;
+    margin-bottom: 18px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-position: 100% 0;
     moz-transition: all .4s ease-in-out;
